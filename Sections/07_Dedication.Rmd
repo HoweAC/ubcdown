@@ -4,14 +4,20 @@ output:
     toc : false
     keep_tex: no
     number_sections: yes
+    extra_dependencies: ["setspace"]
 ---
 
 
 \begin{center}
     \vspace*{\fill}
-    Insert here your dedication
+"Like it or not, for the moment the Earth is where we make our stand."
+\begin{center}
+-Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space
+\end{center}
     \vspace*{\fill}
 \end{center}
+
+
 
 
 

@@ -4,6 +4,7 @@ output:
     toc : no
     keep_tex: no
     number_sections: yes
+    extra_dependencies: ["setspace"]
 ---
 
 <!-- Note this section is Required -->
@@ -14,8 +15,7 @@ output:
 
 \Huge
 
-\textbf{Network processes related to political discourse and policy positions: the case of climate change
-policy networks in Canada.}
+\textbf{Network processes related to political discourse and policy positions: the case of climate change policy networks in Canada.}
 
 \Large
 
@@ -46,6 +46,7 @@ A DISSERTATION SUBMITTED IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGR
 Doctor of Philosophy
 
 \vspace{5mm}
+
 in
 
 \vspace{5mm}

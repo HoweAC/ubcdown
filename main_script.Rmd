@@ -167,7 +167,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 <!-- From here on, include your different data chapters using normal Rmarkdown titles -->
 
 <!-- Modify me! -->
-# Chapter Two: Insert Title Chapter Here 
+# Chapter Two: Social structure and social influence 
 
 <!-- Set figure and table numbering according to the chapter -->
 \renewcommand{\thefigure}{2.\arabic{figure}}
@@ -177,13 +177,13 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{2.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_two, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
+```{r chapter_two, child = './Sections/10_Chapter_two_SNA.Rmd', eval = F}
 ```
 
 \clearpage
 
 <!-- Modify me! -->
-# Chapter Three: Insert Title Chapter Here
+# Chapter Three: Political discourse and social influence
 
 <!-- Set figure and table numbering according to the chapter -->
 \renewcommand{\thefigure}{3.\arabic{figure}}
@@ -193,13 +193,13 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{3.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_three, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
+```{r chapter_three, child = './Sections/11_Chapter_three_media.Rmd', eval = F}
 ```
 
 \clearpage
 
 <!-- Modify me! -->
-# Chapter Four: Insert Title Chapter Here
+# Chapter Four: Micro-structural network processes, and policy positions
 
 <!-- Set figure and table numbering according to the chapter -->
 \renewcommand{\thefigure}{4.\arabic{figure}}
@@ -209,14 +209,12 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{4.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_four, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
+```{r chapter_four, child = './Sections/12_Chapter_four_ERGM.Rmd', eval = F}
 ```
 
 \clearpage
 
-<!-- Modify me! -->
-# Chapter Five: Insert Title Chapter Here
-
+# Synthesis and Conclusion
 <!-- Set figure and table numbering according to the chapter -->
 \renewcommand{\thefigure}{5.\arabic{figure}}
 \setcounter{figure}{0}
@@ -224,15 +222,6 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{table}{0}
 \renewcommand{\theequation}{5.\arabic{equation}}
 \setcounter{equation}{0}
-
-```{r chapter_five, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
-```
-
-\clearpage
-
-<!-- Done with data chapters, last sections -->
-
-# Synthesis and Conclusion
 
 ```{r Conclusion, child = './Sections/09_Conclusion.Rmd', eval = T}
 ```
@@ -264,7 +253,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- ## Appendix A -->
 
-\section*{Appendix A - Supplementary information for "Name of Chapter Two"}
+\section*{Appendix A - Supplementary information on methodology"}
 \addcontentsline{toc}{section}{Appendix A}
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
@@ -276,13 +265,13 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
-```{r appendix_a, child = '~/GitHub/FishForVisa/Scripts/supplements.Rmd', eval = F}
+```{r appendix_a, child = './Sections/13_Appendix_A_methods.Rmd', eval = F}
 ```
 
 
 <!-- ## Appendix B  -->
 
-\section*{Appendix B - Supplementary information for "Name of Chapter Three"}
+\section*{Appendix B - Survey"}
 \addcontentsline{toc}{section}{Appendix B}
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
@@ -294,12 +283,12 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
-```{r appendix_b, child = '~/GitHub/TransEmergence/Scripts/Supplements.Rmd', eval = F}
+```{r appendix_b, child = './Sections/14_Appendix_B_Survey.Rmd', eval = F}
 ```
 
 <!-- ## Appendix C -->
 
-\section*{Appendix C - Supplementary information for "Name of Chapter Four"}
+\section*{Appendix C - Interview Schedule"}
 \addcontentsline{toc}{section}{Appendix C}
 
 
@@ -312,7 +301,25 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
-```{r appendix_c, child = '~/GitHub/OC_Transboundary/Ecol/Supplements.Rmd', eval = F}
+```{r appendix_c, child = './Sections/15_Appendix_C_Interview.Rmd', eval = F}
+```
+
+<!-- ## Appendix D -->
+
+\section*{Appendix D - Ethics Information"}
+\addcontentsline{toc}{section}{Appendix D}
+
+
+<!-- Set Figure, table and equations numbering according to the chapter -->
+\renewcommand{\thefigure}{A5.\arabic{figure}}
+\setcounter{figure}{0}
+\renewcommand{\thetable}{A5.\arabic{table}}
+\setcounter{table}{0}
+\renewcommand{\theequation}{A5.\arabic{equation}}
+\setcounter{equation}{0}
+
+
+```{r appendix_c, child = './Sections/16_Appendix_D_Ethics.Rmd', eval = F}
 ```
 
 

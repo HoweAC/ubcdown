@@ -1,0 +1,9 @@
+---
+output:
+  bookdown::pdf_book:
+    toc : no
+    keep_tex: no
+    number_sections: yes
+    extra_dependencies: ["setspace"]
+---
+# Political discourse and social influence

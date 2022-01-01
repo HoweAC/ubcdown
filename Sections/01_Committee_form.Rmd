@@ -4,6 +4,7 @@ output:
     toc : no
     keep_tex: no
     number_sections: yes
+    extra_dependencies: ["setspace"]
 ---
 
 <!-- Note this section is Required -->
@@ -16,27 +17,32 @@ and Postdoctoral Studies for acceptance, the dissertation entitled:
 \vspace{5mm}
 
 
-\noindent\underline{\makebox[6in][l]{Insert your dissertation title here}}  
+\noindent\underline{\makebox[6in][l]{Network processes related to political discourse and policy positions: the case of climate change}} 
+\noindent\underline{\makebox[6in][l]{policy networks in Canada.}} 
+
 \vspace{2mm}
 
-submitted by \underline{Insert Your Name Here} in partial fulfillment of the requirements for
+submitted by \underline{Adam C. Howe} in partial fulfillment of the requirements for
 
-the degree of \noindent\underline{\makebox[5in][l]{Name of your Degree}}  
+the degree of \noindent\underline{\makebox[5in][l]{Doctor of Philosophy}}  
 
-in \noindent\underline{\makebox[5.8in][l]{Insert Program}}
+in \noindent\underline{\makebox[5.8in][l]{Sociology}}
 
 \vspace{5mm}
 
 **Examining Committee:**
 
-\noindent\underline{\makebox[6in][l]{Name of your Supervisor}}  
+\noindent\underline{\makebox[6in][l]{David B. Tindall}}  
 Research Supervisor
 
-\noindent\underline{\makebox[6in][l]{Name of your Committee Member}}  
+\noindent\underline{\makebox[6in][l]{Rima Wilkes}}  
 Supervisory Committee Member 
 
-\noindent\underline{\makebox[6in][l]{Name of University Examiner}}  
-University Examiner
+\noindent\underline{\makebox[6in][l]{Mark C. J. Stoddart}}  
+Supervisory Committee Member 
+
+\noindent\underline{\makebox[6in][l]{John McLevey}}  
+Supervisory Committee Member 
 
 \noindent\underline{\makebox[6in][l]{Name of University Examiner}}  
 University Examiner

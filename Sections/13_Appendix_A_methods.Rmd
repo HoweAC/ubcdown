@@ -1,0 +1,16 @@
+---
+output:
+  bookdown::pdf_book:
+    toc : no
+    keep_tex: no
+    number_sections: yes
+    extra_dependencies: ["setspace"]
+---
+# Appendix A - Supplementary information on methodology
+
+## Social Network / Policy Network Analysis
+
+## Discourse Nerwork Analysis
+
+## Zero-Inflated Negative Binomial Regression
+
