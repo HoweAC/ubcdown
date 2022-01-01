@@ -14,7 +14,8 @@ output:
 
 \Huge
 
-\textbf{HERE GOES YOUR TITLE}
+\textbf{Network processes related to political discourse and policy positions: the case of climate change
+policy networks in Canada.}
 
 \Large
 
@@ -26,15 +27,15 @@ by
 
 \huge
 
-Here Goes Your Name
+Adam C. Howe
 
 \Large
 
 \vspace{8mm}
 
-Undergraduate degree
+B.A. Hons., McMaster University, 2014
 
-Master degree
+M.A., McMaster University, 2015
 
 \vspace{10mm}
 
@@ -42,7 +43,7 @@ A DISSERTATION SUBMITTED IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGR
 
 \vspace{5mm}
 
-HERE GOES YOUR DEGREEE
+Doctor of Philosophy
 
 \vspace{5mm}
 in
@@ -53,7 +54,7 @@ THE FACULTY OF GRADUATE AND POSTDOCTORAL STUDIES
 
 \vspace{5mm}
 
-(Program)
+(Sociology)
 
 \vspace{5mm}
 
@@ -67,7 +68,7 @@ THE UNIVERSITY OF BRITISH COLUMBIA
 
 Month YYYY
 
-© Here Goes Your Name, YYYY
+© Adam C. Howe, 2022
 
 \end{center}
 \end{singlespace}
