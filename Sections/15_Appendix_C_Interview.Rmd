@@ -6,4 +6,226 @@ output:
     number_sections: yes
     extra_dependencies: ["setspace"]
 ---
-# Appendix C - Interview Schedule
+# Appendix C - Interview Schedule and Preamble
+
+\centerline{\underline{PREAMBLE TO MAIN CANADA COMPON Interview: Version 1.}}
+
+\centerline{Feb 18th, 2015.}
+
+Before we get started with the interview, I’ll give you a brief overview of the study, and you can ask any questions you might have.
+
+\noindent
+The UBC Climate Change Policy Networks study seeks to understand how people and organizations communicate about, and work to shape climate change policy in Canada.  The project is funded by the Canadian government, through a grant from the Social Sciences and Humanities Research Council. 
+
+
+\noindent
+(If someone asks, the grant # is: F10-05404).
+
+
+\noindent
+The main focus of this study is upon the social networks of organizations and individuals around climate change policy issues. When we use the term “social network” we do not mean it in the contemporary popular sense of social media (though this is one way in which groups and individuals might interact with one another). We mean it in a more general way; e.g., who are the organizations that you and/or your organization communicate with, exchange information with, and work with on various issues.
+
+
+\noindent
+There are two parts to the study: an online component with mostly closed-ended question, and an open-end question component that may be done in an interview context.
+
+\noindent
+Your participation in the study is purely voluntary. You can choose not to answer any questions, and can withdraw from the study at any time.
+
+\noindent
+We will be sending an e-mail to you in the next few weeks about the online survey.
+
+\noindent
+The names of individuals who participate in the survey will be kept confidential.
+
+
+\noindent
+**Do you agree to continue with the interview?**
+
+
+\noindent
+**When we start the interview, I would like to use a digital recorder.**
+
+
+\noindent
+(For phone interviews, say, this is a device like an earphone, between my ear and the telephone receiver.)
+
+
+\noindent
+**Is this o.k.?**
+
+
+\noindent
+**Do you have any questions?**
+
+
+\noindent
+(Answer any questions. See Scripted Responses for typical replies to questions.)
+
+
+\noindent
+**We will now begin the interview. I am now turning on the digital recorder.**
+
+
+
+\noindent
+\underline{**SCRIPTED REPLIES TO TYPICAL QUESTIONS:**}
+
+\noindent
+**Q: What is the study about?**
+
+\noindent
+**Answer:** The Climate Change Policy Networks is an academic study that seeks to understand how people and organizations communicate about, and work to shape climate change policy in Canada.  
+
+\noindent
+**Further elaboration:** We are hoping that the study will provide a greater understanding of the array of perceptions about climate change policy options that exist, and the distribution of support that exists for different options amongst various groups.
+
+\noindent
+The findings from this research may be useful for individuals and organizations involved in future policy making.
+
+\noindent
+**Q: What will the data be used for?**
+
+\noindent
+**Answer:** for writing academic journal articles, and possibly a book, or some book chapters about climate change and climate change policies in Canada.
+
+\noindent
+**Q: Who will have access to the data?**
+
+\noindent
+**Answer:** the principal investigator (David Tindall), and a few members of the research team which includes some other university professors, and some graduate students.
+
+\noindent
+**Q: Will participants receive a report of the findings?**
+
+\noindent
+**Answer:** we will endeavor to provide a report that summarizes some of the key findings to participants who are interested in receiving it. It will likely be a couple of years before we are able to produce such a report.
+
+
+\centerline{\underline{UBC Climate Change Policy Study: Main Interview Schedule.}}
+
+
+ID#.
+
+
+
+Name.
+
+
+
+Interviewer.
+
+
+
+Interview date.
+
+
+
+1. (If R is a representative of an organization:) 
+
+Can you tell me a little bit about your organization? (E.g., its mission and activities.)
+
+
+
+
+
+
+
+2. What is your title and job in your organization:
+
+
+
+
+
+
+3. a. Could you tell me a little about your background with regard to climate change? 
+
+
+
+
+3. b. What sort of work are you currently doing on this issue? (In the context of the 
+      organization.)
+
+
+
+4. a. What is your opinion of climate change politics in Canada? 
+
+
+
+
+4. b. What do you think is the best solution to these (climate change) problems?
+
+
+
+
+
+
+5. How do you think policy-making in Canada can or should address climate change issues?
+
+
+
+
+
+
+6. a. (Q Re. Social Networks.) What types of people and organizations do you personally interact with regarding climate policy? 
+
+
+
+6. b. What types of people and organizations does your organization interact with regarding climate policy? 
+
+
+
+6. c. Why do you interact with these people or organizations?
+
+
+
+
+
+
+7. What is your assessment of the Paris COP21 Climate Change Agreement?
+
+
+
+
+
+
+8. What is your assessment of Canada's participation in, and contribution to the Paris COP 21 Climate Change Agreement?
+
+
+
+
+9. What is, and what should be the role of science/scientists in policy-making processes?
+
+
+
+
+
+10. What is, and what should be the role of environmental NGOs in policy-making processes?
+
+
+
+
+11. What is, and what should be the role of media in climate change policy-making processes?
+
+
+
+
+
+
+12. Can you think of anything else I should know about your (or your organization’s) involvement in climate change policy, or do you have anything to add about issues that I did not ask you about?
+
+
+
+
+
+
+- Thank you for taking the time to answer all of these questions today, it was very interesting. 
+
+
+
+- We will be in touch in the next few weeks and we’ll send you an email link to the online component of the survey whenever you have time. 
+
+
+
+- If you do have any further questions feel free to contact me by email or by phone. I greatly appreciate your participation.
+

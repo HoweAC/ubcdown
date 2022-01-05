@@ -177,7 +177,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{2.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_two, child = './Sections/10_Chapter_two_SNA.Rmd', eval = F}
+```{r chapter_two, child = './Sections/10_Chapter_two_SNA.Rmd', eval = T}
 ```
 
 \clearpage
@@ -193,7 +193,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{3.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_three, child = './Sections/11_Chapter_three_media.Rmd', eval = F}
+```{r chapter_three, child = './Sections/11_Chapter_three_media.Rmd', eval = T}
 ```
 
 \clearpage
@@ -209,7 +209,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{4.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_four, child = './Sections/12_Chapter_four_ERGM.Rmd', eval = F}
+```{r chapter_four, child = './Sections/12_Chapter_four_ERGM.Rmd', eval = T}
 ```
 
 \clearpage
@@ -265,7 +265,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
-```{r appendix_a, child = './Sections/13_Appendix_A_methods.Rmd', eval = F}
+```{r appendix_a, child = './Sections/13_Appendix_A_methods.Rmd', eval = T}
 ```
 
 
@@ -283,7 +283,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
-```{r appendix_b, child = './Sections/14_Appendix_B_Survey.Rmd', eval = F}
+```{r appendix_b, child = './Sections/14_Appendix_B_Survey.Rmd', eval = T}
 ```
 
 <!-- ## Appendix C -->
@@ -301,7 +301,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
-```{r appendix_c, child = './Sections/15_Appendix_C_Interview.Rmd', eval = F}
+```{r appendix_c, child = './Sections/15_Appendix_C_Interview.Rmd', eval = T}
 ```
 
 <!-- ## Appendix D -->
@@ -319,7 +319,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
-```{r appendix_c, child = './Sections/16_Appendix_D_Ethics.Rmd', eval = F}
+```{r appendix_c, child = './Sections/16_Appendix_D_Ethics.Rmd', eval = T}
 ```
 
 

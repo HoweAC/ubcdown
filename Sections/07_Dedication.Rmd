@@ -12,7 +12,8 @@ output:
     \vspace*{\fill}
 "Like it or not, for the moment the Earth is where we make our stand."
 \begin{center}
--Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space
+-Carl Sagan
+
 \end{center}
     \vspace*{\fill}
 \end{center}

@@ -10,11 +10,103 @@ output:
 
 [@Taylor2000]
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend odio odio, et consectetur nunc commodo vitae. Donec eu finibus lacus. Integer at porta nulla. Fusce dignissim gravida lacinia. Nulla ut odio in ante imperdiet placerat. Maecenas vel imperdiet lorem. Proin ultricies, ex at bibendum fringilla, neque libero malesuada sem, in tincidunt leo mi vel mi. Phasellus scelerisque sagittis urna sed sodales. Curabitur iaculis justo velit, ultricies euismod justo convallis non. Nunc id purus et ante iaculis dignissim vel non erat. Donec dignissim urna ut lobortis congue. Nulla tempus ut ipsum non ornare. Donec ac purus nec sem cursus eleifend. Suspendisse potenti. Vestibulum ac vehicula ante.
-
 ## This could be a sub-hedding
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend odio odio, et consectetur nunc commodo vitae. Donec eu finibus lacus. Integer at porta nulla. Fusce dignissim gravida lacinia. Nulla ut odio in ante imperdiet placerat. Maecenas vel imperdiet lorem. Proin ultricies, ex at bibendum fringilla, neque libero malesuada sem, in tincidunt leo mi vel mi. Phasellus scelerisque sagittis urna sed sodales. Curabitur iaculis justo velit, ultricies euismod justo convallis non. Nunc id purus et ante iaculis dignissim vel non erat. Donec dignissim urna ut lobortis congue. Nulla tempus ut ipsum non ornare. Donec ac purus nec sem cursus eleifend. Suspendisse potenti. Vestibulum ac vehicula ante.
+Words
+
+## Referencing tables
+
+This text will render with a table referenced (Table \@ref(tab:carbonPrice)).
+
+```{r carbonPrice, eval=T, echo=F, tab.pos = "H", out.extra=''}
+library(stringr)
+
+text_tbl <- data.frame(
+  "A" = c(
+    "British Columbia",
+    "Alberta",
+    "Manitoba",
+    "Saskatchewan",
+    "Ontario",
+    "Quebec",
+    "Newfoundland & Labrador",
+    "New Brunswick",
+    "Prince Edward Island",
+    "Nova Scotia",
+    "Yukon",
+    "Northwest Territories",
+    "Nunavut"
+  ),
+  "B" = c("$45",
+                     "$40",
+                     "$40",
+                     "$40",
+                     "$40",
+                     "$23",
+                     "$40",
+                     "$40",
+                     "$40",
+                     "$25",
+                     "$40",
+                     "$30",
+                     "$40"
+  ),
+  "C" = c("Provincial carbon tax",
+                       "Federal carbon tax",
+                       "Federal carbon tax",
+                       "Federal carbon tax",
+                       "Federal carbon tax",
+                       "Provincial cap & trade",
+                       "Provincial carbon tax",
+                       "Provincial carbon tax",
+                       "Provincial carbon tax",
+                       "Provincial cap & trade",
+                       "Federal carbon tax",
+                       "Provincial carbon tax",
+                       "Federal carbon tax"
+  ),
+  "D" = c("Provincial carbon tax",
+                             "Provincial TIER HACKIT",
+                             "Federal OBPS",
+                             "Federal & provincial OBPS",
+                             "Provincial EPS",
+                             "Provincial cap & trade",
+                             "Provincial EPS",
+                             "Provincial OBPS",
+                             "Federal OBPS",
+                             "Provincial cap & trade",
+                             "Federal OBPS",
+                             "Provincial carbon tax",
+                             "Federal OBPS"
+    
+  )
+)
+  
+
+
+tmp<-knitr::kable(text_tbl,
+      caption = "Summary of carbon prices in Canadian provinces and territories as of December 2021, and the mechanisms used to regulate emissions.",
+      caption.short = "Carbon prices in Canadian provinces and territories, 2021.",
+      col.names = c("Province/territory", "Carbon Price", "Consumer emissions", "Industrial emissions"),
+      align = "lcll")%>%
+  row_spec(0,bold=TRUE, background = "#D3D3D3")%>%
+  kable_styling(latex_options = "HOLD_position",
+                bootstrap_options = c("condensed"),
+                full_width=F)%>%
+  column_spec(1, border_right = T,border_left = T)%>%
+  column_spec(2, border_right = T)%>%
+  column_spec(3, border_right = T)%>%
+  column_spec(4, border_right = T)%>%
+  footnote(symbol = "Alberta’s Technology Innovation and Emissions Reduction (TIER) law is a type of baseline and credit system similar to an EPS or OBPS.",
+           general = "Note: this table is adapted from the summary diagram found at https://www.energyhub.org/carbon-pricing/ accessed on December 24, 2021.",
+           footnote_order = c("symbol", "general"),
+           general_title = "",
+           symbol_manual = "\\\\dag",
+           threeparttable = T,
+           fixed_small_size = T)
+  #add_footnote("Footnote 1", notation="General")
+knitr::asis_output(str_replace(tmp, "HACKIT", "$^{\\\\dag}$")) 
+```
 
 ## Referencing figures
 

@@ -4,7 +4,99 @@ output:
     toc : no
     keep_tex: no
     number_sections: yes
-    extra_dependencies: ["setspace"]
+    #extra_dependencies: ["setspace"]
 ---
 
 # Social structure and social influence
+
+This text will render with a table referenced (Table \@ref(tab:ntwkStats)).
+
+```{r ntwkStats, eval=T, echo=F, tab.pos = "H", out.extra=''}
+library(stringr)
+
+ntwkStat_tbl <- data.frame(
+  "network" = c(
+    "Collaboration",
+    "Communication",
+    "Scientific information",
+    "Domestic policy",
+    "Respondent's org."
+  ),
+  "numNodes" = c("44",
+          "44",
+          "44",
+          "44",
+          "44"
+  ),
+  "numEdge" = c("125",
+                "148",
+                "160",
+                "214",
+                "74"
+
+  ),
+  "numIso" = c("4",
+               "4",
+               "5",
+               "3",
+               "11"
+  ),
+  "density" = c(".06",
+                ".08",
+                ".08",
+                ".11",
+                ".04"
+  ),
+  "centralization" = c(".19",
+                       ".17",
+                       ".18",
+                       ".18",
+                       ".29"
+  ),
+  "diameter" = c("8",
+                 "6",
+                 "5",
+                 "6",
+                 "6"
+  ),
+  "avgPathLgth" = c("3.08",
+                    "2.48",
+                    "2.19",
+                    "2.37",
+                    "2.52"
+  )
+)
+
+ntwkTab<-knitr::kable(ntwkStat_tbl,
+      caption = "Summary of whole network statistics for five climate change networks.",
+      caption.short = "Whole network statistics for five climate change networks.",
+      col.names = c("Network", "Nodes", "Edges", "Isolates", "Density","Centralization", "Diameter","Avg. path length"),
+      align = 'c')%>%
+  row_spec(0,bold=TRUE, background = "#D3D3D3")%>%
+  kable_styling(latex_options =
+                c("HOLD_position", "scale_down"),
+                bootstrap_options = c("condensed"),
+                full_width=F)%>%
+  column_spec(1, width = "3.5cm")%>%
+  column_spec(2:8, width = "2.5cm")%>%
+  column_spec(1, border_right = T,border_left = T)%>%
+  column_spec(2, border_right = T)%>%
+  column_spec(3, border_right = T)%>%
+  column_spec(4, border_right = T)%>%
+  column_spec(5, border_right = T)%>%
+  column_spec(6, border_right = T)%>%
+  column_spec(7, border_right = T)%>%
+  column_spec(8, border_right = T)%>%
+  pack_rows("Interactional", 1,3, label_row_css = "background-color: #666; color: #fff;")%>%
+  pack_rows("Influence", 4,5, label_row_css = "background-color: #666; color: #fff;")
+  #footnote(symbol = "Alberta’s Technology Innovation and Emissions Reduction (TIER) law is a type of baseline and credit system similar to an EPS or OBPS.",
+           #general = "Note: this table is adapted from the summary diagram found at https://www.energyhub.org/carbon-pricing/ accessed on December 24, 2021.",
+           #footnote_order = c("symbol", "general"),
+           #general_title = "",
+           #symbol_manual = "\\\\dag",
+           #threeparttable = T,
+           #fixed_small_size = T)
+  #add_footnote("Footnote 1", notation="General")
+knitr::asis_output(ntwkTab)
+```
+
