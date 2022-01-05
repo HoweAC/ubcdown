@@ -6,7 +6,6 @@ output:
     number_sections: yes
     extra_dependencies: ["setspace"]
 ---
-# Appendix C - Interview Schedule and Preamble
 
 \centerline{\underline{PREAMBLE TO MAIN CANADA COMPON Interview: Version 1.}}
 
@@ -121,9 +120,7 @@ Interview date.
 
 
 
-1. (If R is a representative of an organization:) 
-
-Can you tell me a little bit about your organization? (E.g., its mission and activities.)
+1. (If R is a representative of an organization:) Can you tell me a little bit about your organization? (E.g., its mission and activities.)
 
 
 

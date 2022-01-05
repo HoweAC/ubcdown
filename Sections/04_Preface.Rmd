@@ -8,10 +8,21 @@ output:
 
 <!-- This is mandatory! -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nulla malesuada, auctor arcu at, tempor nibh. Etiam ultricies dictum nisi eu vulputate. Suspendisse tempor aliquam efficitur. Curabitur eget orci ac purus hendrerit laoreet. Proin porta arcu nisl, a fermentum tellus suscipit et. Nulla mattis orci ac tortor facilisis venenatis. Phasellus a velit tristique, tincidunt purus id, aliquet tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed et turpis sed odio faucibus aliquam nec eget est.
+\noindent
+This thesis is original work completed by Adam Howe. Guidance was given by the supervisory
+committee.
 
-Phasellus ligula lacus, euismod posuere pretium sit amet, ornare condimentum nisl. Integer eu aliquet lectus, sit amet sagittis turpis. Etiam tempus bibendum nibh, eu accumsan sapien. Suspendisse tincidunt sit amet nisi vel consectetur. Donec vitae odio elit. Quisque dignissim risus feugiat nunc tempor hendrerit. Fusce consequat lectus eget felis tempus, et lobortis ante ornare. Etiam euismod quam eu scelerisque mattis. Praesent nisi lectus, tincidunt nec sapien ac, fermentum pellentesque orci.
+\noindent
+For chapter one I was responsible for data cleaning, preparation, and analysis and writing the text. My coauthors originally collected the data, and helped with revisions of the manuscript before publication. This research is covered under the approval from the UBC Behavioural Research Ethics Board under UBC ethics certificate number H12-02465.
 
-Praesent semper faucibus mauris, in suscipit quam mattis et. Curabitur malesuada placerat magna. Morbi eget bibendum purus, sollicitudin faucibus enim. Donec condimentum arcu quis eros placerat sodales. Nunc non elit sodales, blandit risus vel, mattis odio. Nullam in aliquet ligula, ut viverra enim. Aliquam viverra justo non neque consequat dictum. Nunc tempor arcu sem, non blandit nisl dapibus eu. Donec vitae pretium magna. Nam risus augue, ultricies ac sollicitudin ut, rutrum eleifend purus. Donec lorem turpis, lacinia quis pretium non, sollicitudin eu enim. Curabitur eu eros congue, vehicula ante vitae, semper elit.
+\noindent
+A version of chapter three was originally published as a research article (Howe, Stoddart, & Tindall, 2020) in the journal Politics and Governance. I was responsible for data cleaning, preparation, and analysis and writing the text. My coauthors originally collected the data, and helped with revisions of the manuscript before publication. This research is covered under the approval from the UBC Behavioural Research Ethics Board under UBC ethics certificate number H12-02465.
 
-Fusce feugiat consectetur erat, nec venenatis massa malesuada nec. Curabitur varius convallis sem eget efficitur. Morbi congue odio non turpis cursus efficitur. In hac habitasse platea dictumst. Cras porttitor porttitor nibh id tempor. Sed bibendum quam nisl, sed congue lectus condimentum et. Curabitur nec mauris sapien. Morbi dictum ex sodales turpis ornare mattis. Suspendisse potenti. Pellentesque commodo lorem purus, id mattis nibh efficitur et. Cras tempus rutrum interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris placerat ligula eu nisl sagittis consequat. Curabitur placerat, elit quis cursus tempor, mauris augue posuere metus, ut elementum orci diam maximus lectus. Proin sed sodales nulla. Maecenas non sapien nec mauris facilisis fringilla.
+
+>Howe, A. C., Stoddart, M. C. J. J., & Tindall, D. B. (2020). Media Coverage and Perceived Policy Influence of Environmental Actors: Good Strategy or Pyrrhic Victory? Politics and Governance, 8(2), 298. https://doi.org/10.17645/pag.v8i2.2595
+
+\noindent
+A version of chapter four was originally published as a research article (Howe, Tindall, & Stoddart, 2020) in the journal Social Networks. I was responsible for data cleaning, preparation, and analysis and writing the text. My coauthors originally collected the data and helped with revisions of the manuscript before publication. This research is covered under the approval from the UBC Behavioural Research Ethics Board under UBC ethics certificate number H12-02465.
+
+>Howe, A. C., Tindall, D. B., & Stoddart, M. C. J. (2020). Drivers of tie formation in the Canadian climate change policy network: Belief homophily and social structural processes. Social Networks.
+

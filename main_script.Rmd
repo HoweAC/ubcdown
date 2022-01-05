@@ -253,7 +253,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- ## Appendix A -->
 
-\section*{Appendix A - Supplementary information on methodology"}
+\section*{Appendix A - Supplementary information on methodology}
 \addcontentsline{toc}{section}{Appendix A}
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
@@ -271,7 +271,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- ## Appendix B  -->
 
-\section*{Appendix B - Survey"}
+\section*{Appendix B - Survey}
 \addcontentsline{toc}{section}{Appendix B}
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
@@ -288,7 +288,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- ## Appendix C -->
 
-\section*{Appendix C - Interview Schedule"}
+\section*{Appendix C - Interview Schedule}
 \addcontentsline{toc}{section}{Appendix C}
 
 
@@ -301,12 +301,13 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
+
 ```{r appendix_c, child = './Sections/15_Appendix_C_Interview.Rmd', eval = T}
 ```
 
 <!-- ## Appendix D -->
 
-\section*{Appendix D - Ethics Information"}
+\section*{Appendix D - Ethics Information}
 \addcontentsline{toc}{section}{Appendix D}
 
 

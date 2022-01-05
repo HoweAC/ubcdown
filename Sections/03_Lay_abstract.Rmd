@@ -7,9 +7,4 @@ output:
 ---
 
 <!-- Remember, It can't be longer than 150 words! -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem massa, suscipit vel dapibus a, iaculis ut sapien. Duis eu tellus vitae ligula semper commodo. Morbi felis tortor, ullamcorper vitae venenatis sit amet, commodo eu tortor. Proin ultrices ipsum ipsum, sed viverra arcu maximus eget. Aliquam nec nisl rutrum quam tempus iaculis nec sed dui. Nulla vitae imperdiet neque. Morbi eget eleifend lectus. Etiam semper id purus et scelerisque. Suspendisse lectus libero, iaculis et arcu vel, mattis mollis odio.
-
-Phasellus quis metus erat. Nunc erat mi, posuere eleifend tortor quis, consequat dignissim metus. Pellentesque eget ante massa. Integer ultrices pulvinar varius. Sed dapibus sed arcu sit amet cursus. In hac habitasse platea dictumst. Aliquam vehicula est sed velit dapibus commodo. Donec placerat eu metus vel efficitur. Pellentesque commodo, nisi at elementum sagittis, erat magna feugiat elit, sit amet facilisis est diam eget tellus. Ut tellus velit, fringilla non consequat ut.
-
-
+Climate change is serious global problem. Canada has some policies that may help with climate change, but also some that may not. How can we understand this? Making climate change policy involves actors coming together into networks, who interact with each other and judge how influential they think other network actors are. They also have public conversations in the media. I find that research and environmental actors are important in some of the networks, but not seen as very influential. I also find that for environmental actors, media coverage makes them seem less influential. I also look at the beliefs network actors have about climate change policies, and the ways two network actors can be connected. I find some of the policy beliefs actors have are important in explaining the structure of the network, but the specific ways that two network actors can be connected are also important.

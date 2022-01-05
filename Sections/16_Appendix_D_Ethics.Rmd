@@ -6,4 +6,3 @@ output:
     number_sections: yes
     extra_dependencies: ["setspace"]
 ---
-# Appendix D - Ethics
